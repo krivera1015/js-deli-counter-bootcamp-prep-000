@@ -14,12 +14,16 @@ function nowServing(line) {
 //First condition is no one in line
   if (line.length === 0) {
     return `There is nobody waiting to be served!`
-//
+//Second condition return who is up and takes them out of array
   } else {
     return `Currently serving ${line.shift()}.`
   }
 }
 
+if new person thank you for choosing Deli
+function thankYouDeli(newPerson) {
+  return `${newPerson} thank you for visiting Katz!`
+}
 //take argument line
 //create object using that array
 //return string The line is currently: 1. Ada, 2. Grace
