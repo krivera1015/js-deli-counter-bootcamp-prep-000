@@ -8,8 +8,11 @@ function takeANumber(katzDeliLine, newPerson) {
 
 //create function that will take an array as parameter
 function nowServing(line) {
+//Seems like condition statement since I will return two different outcomes based on two different conditions
+//First condition is no one in line 
   if (line.length === 0) {
     return `There is nobody waiting to be served!`
+//
   } else {
     return `Currently serving ${line.shift()}.`
   }
