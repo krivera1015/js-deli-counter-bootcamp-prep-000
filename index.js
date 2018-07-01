@@ -6,7 +6,7 @@ function takeANumber(katzDeliLine, newPerson) {
   return `Welcome, ${newPerson}. You are number ${katzDeliLine.length} in line.`
 }
 
-//create function that takes two parameters: an array and
+//create function that will take an array as parameter
 function nowServing(line) {
   if (line.length === 0) {
     return `There is nobody waiting to be served!`
