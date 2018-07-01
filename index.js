@@ -19,24 +19,22 @@ function nowServing(line) {
     return `Currently serving ${line.shift()}.`
   }
 }
-
-if new person thank you for choosing Deli
-function thankYouDeli(newPerson) {
-  return `${newPerson} thank you for visiting Katz!`
-}
 //take argument line
-//create object using that array
 //return string The line is currently: 1. Ada, 2. Grace
 //if no one is online return string "The line is currently empty."
-  //var newArray = []this equals empty array
 function currentLine(line) {
   var newArray = []
   if (line.length === 0) {
     return `The line is currently empty.`
+//Find a way for a number to go up and the element as well
+//Can't mutate so equal it to empty array and return that new array
+//Must loop to go through all elements in array
   } else {
     for (var i = 0; i < line.length; i++) {
       newArray.push(`${i + 1}. ${line[i]}`)
     }
   }
+//Kept getting the string without comma when returning.
+//method .join() will separate using certain passed element
   return `The line is currently: ${newArray.join(", ")}`
 }
