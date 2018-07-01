@@ -36,5 +36,5 @@ function currentLine(line) {
   }
 //Kept getting the string without comma when returning.
 //method .join() will separate using certain passed element
-  return `The line is currently: ${newArray.join(", ")}`
+  return `The line is currently: ${newArray.join(" , ")}`
 }
