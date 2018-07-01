@@ -1,3 +1,5 @@
+var katzDeli = []
+
 //takes two arguments, one for an array and one for a person's name
 function takeANumber(katzDeliLine, newPerson) {
 //we need to use a method that will add a person to back of the array when called as argument
@@ -9,7 +11,7 @@ function takeANumber(katzDeliLine, newPerson) {
 //create function that will take an array as parameter
 function nowServing(line) {
 //Seems like condition statement since I will return two different outcomes based on two different conditions
-//First condition is no one in line 
+//First condition is no one in line
   if (line.length === 0) {
     return `There is nobody waiting to be served!`
 //
